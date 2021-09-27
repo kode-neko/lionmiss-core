@@ -1,7 +1,7 @@
 {
   "name": "lionmiss-core",
   "version": "0.1.1",
-  "description": "Virgin react+typescript+webpack project",
+  "description": "Core files for Lion Miss web site project",
   "private": false,
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -12,13 +12,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kode-neko/kodeneko-webpack-react-ts.git"
+    "url": "git+https://github.com/kode-neko/lionmiss-core.git"
   },
   "keywords": [
-    "react",
-    "base",
     "kode-neko",
-    "clean"
+    "lion-miss"
   ],
   "scripts": {
     "dev": "webpack serve --config webpack.dev.config.ts",
