@@ -15,6 +15,6 @@
     "noEmit": false,
     "jsx": "react",
   },
-  "include": ["src/lib/**/*"],
+  "include": ["src/lib/**/*", "src/index.ts"],
   "exclude": ["src/lib/**/*.test.*"]
 }
