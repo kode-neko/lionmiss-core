@@ -1977,11 +1977,6 @@
     "@typescript-eslint/types" "4.31.2"
     eslint-visitor-keys "^2.0.0"
 
-"@use-it/event-listener@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@use-it/event-listener/-/event-listener-0.1.6.tgz#5776274fec72f3f25af9ead1898e7f45bc435812"
-  integrity sha512-e6V7vbU8xpuqy4GZkTLExHffOFgxmGHo3kNWnlhzM/zcX2v+idbD/HaJ9sKdQMgTh+L7MIhdRDXGX3SdAViZzA==
-
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.11.1.tgz#2bfd767eae1a6996f432ff7e8d7fc75679c0b6a7"
@@ -6526,14 +6521,6 @@ klona@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.4.tgz#7bb1e3affb0cb8624547ef7e8f6708ea2e39dfc0"
   integrity sha512-ZRbnvdg/NxqzC7L9Uyqzf4psi1OM4Cuc+sJAkQPjO6XkQIJTNbfK2Rsmbw8fx1p2mkZdp2FZYo2+LwXYY/uwIA==
-
-kodeneko-react-components@^0.2.13:
-  version "0.2.13"
-  resolved "https://registry.yarnpkg.com/kodeneko-react-components/-/kodeneko-react-components-0.2.13.tgz#52e70c4617912a6e397f7f6b7ead02c7c4cb00f9"
-  integrity sha512-vj716/1laCN9+CXeK2C+lWGy3vxixyghwlawVQiIpoi/RTS/gkUojs/iA4rFqfIRwi3kU7dN0D7kxVPidge+Jg==
-  dependencies:
-    react "^17.0.2"
-    react-dom "^17.0.2"
 
 last-run@^1.1.0:
   version "1.1.1"
