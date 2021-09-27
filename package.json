@@ -70,13 +70,31 @@
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",
     "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
     "typescript": "^4.4.2",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.0.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@js-joda/core": "^4.0.0",
+    "@types/rx": "^4.1.2",
+    "@types/styled-components": "^5.1.14",
+    "@use-it/event-listener": "^0.1.6",
+    "classnames": "^2.3.1",
+    "i18next": "^20.6.0",
+    "kodeneko-react-components": "^0.2.13",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.11.4",
+    "reset-css": "^5.0.1",
+    "rxjs": "^7.3.0",
+    "styled-components": "^5.3.1"
   }
 }
