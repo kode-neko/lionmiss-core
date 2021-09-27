@@ -2,7 +2,7 @@
   "name": "lionmiss-core",
   "version": "0.1.1",
   "description": "Core files for Lion Miss web site project",
-  "private": false,
+  "private": true,
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
