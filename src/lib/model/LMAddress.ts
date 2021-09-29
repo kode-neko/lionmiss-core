@@ -8,6 +8,7 @@ type LMAddress = {
   phone: string;
   mail: string;
   comments: string;
+  main: boolean;
 };
 
 export { LMAddress };

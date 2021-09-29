@@ -4,7 +4,7 @@ type LMMeasures = {
   chest: number;
   waist: number;
   hip: number;
-  size: LMSize;
+  size?: LMSize;
 };
 
 export { LMMeasures };
