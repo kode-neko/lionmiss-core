@@ -1,5 +1,5 @@
 export { LMCart, LMCartProduct } from "./LMCart";
-export { LMColor, LMSize, LMMeasures } from "./LMEnum";
+export { LMColor, LMSize } from "./LMEnum";
 export { LMProduct, LMProductProps } from "./LMProduct";
 export { LMPromo, LMPromoType } from "./LMPromo";
 export { LMAddress } from "./LMAddress";
@@ -7,5 +7,6 @@ export { LMComment } from "./LMComment";
 export { LMCountry } from "./LMCountry";
 export { LMCreditCard } from "./LMCreditCard";
 export { LMImg } from "./LMImg";
+export { LMMeasures } from "./LMMeasures";
 export { LMPropsBuy } from "./LMPropsBuy";
 export { LMUser, LMUserInfo } from "./LMUser";
