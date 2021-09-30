@@ -4,6 +4,7 @@ export { LMProduct, LMProductProps } from "./LMProduct";
 export { LMPromo, LMPromoType } from "./LMPromo";
 export { LMAddress } from "./LMAddress";
 export { LMComment } from "./LMComment";
+export { LMCountry } from "./LMCountry";
 export { LMCreditCard } from "./LMCreditCard";
 export { LMImg } from "./LMImg";
 export { LMPropsBuy } from "./LMPropsBuy";
