@@ -17,4 +17,5 @@ export {
   LMPropsBuy,
   LMUser,
   LMUserInfo,
+  LMShipping
 } from "./model";
