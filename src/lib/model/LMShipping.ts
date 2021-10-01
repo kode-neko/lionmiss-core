@@ -2,7 +2,7 @@ type LMShipping = {
   id: string;
   initDate: Date;
   finishDate: Date;
-  priceShipping: Date;
+  priceShipping: number;
   shippingMethod: string;
   paymentMethod: string;
 };
