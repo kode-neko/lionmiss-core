@@ -13,6 +13,7 @@
     "isolatedModules": false,
     "noEmit": false,
     "jsx": "react",
+    "esModuleInterop": true
   },
   "include": ["src/lib/**/*"],
   "exclude": ["src/lib/**/*.test.*"]
