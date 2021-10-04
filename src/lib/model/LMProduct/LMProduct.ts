@@ -3,7 +3,7 @@ import { LMColor } from "../LMEnum";
 import { LMImg } from "../LMImg";
 
 type LMProduct = {
-  id: string;
+  _id?: string;
   name: string;
   price: number;
   description: string;

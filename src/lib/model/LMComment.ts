@@ -3,7 +3,7 @@ import { LMUser } from "./LMUser";
 import { LMImg } from "./LMImg";
 
 type LMComment = {
-  id: string;
+  _id?: string;
   comment: string;
   date: Date;
   ratting: number;

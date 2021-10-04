@@ -1,7 +1,7 @@
 import { LMCart } from "./LMCart";
 
 type LMShipping = {
-  id: string;
+  _id?: string;
   initDate: Date;
   finishDate: Date;
   priceShipping: number;
