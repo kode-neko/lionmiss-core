@@ -10,7 +10,6 @@ type LMProduct = {
   details: LMProductProps[];
   colors: LMColor[];
   unds: number;
-  isFav: boolean;
   imgs: LMImg[];
 };
 
