@@ -1,3 +1,5 @@
+import { LMCart } from "./LMCart";
+
 type LMShipping = {
   id: string;
   initDate: Date;
@@ -5,6 +7,7 @@ type LMShipping = {
   priceShipping: number;
   shippingMethod: string;
   paymentMethod: string;
+  cart: LMCart;
 };
 
 export { LMShipping };

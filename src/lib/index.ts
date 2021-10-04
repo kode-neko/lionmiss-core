@@ -18,5 +18,6 @@ export {
   LMUser,
   LMUserInfo,
   LMShipping,
+  LMCountry,
 } from "./model";
 export { enumStringToList, enumNumberToList } from "./utils";
