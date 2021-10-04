@@ -1,5 +1,5 @@
 type LMImg = {
-  _id: string;
+  _id?: string;
   src: string;
   title?: string;
   alt?: string;
