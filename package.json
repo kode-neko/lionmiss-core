@@ -25,8 +25,9 @@
     "lint": "eslint ./src",
     "format": "prettier src/**/*.{js,html,css} --write",
     "dist:tsc": "tsc",
-    "dist:style": "gulp",
-    "dist": "yarn run dist:tsc && yarn run dist:style"
+    "dist:style": "gulp css",
+    "dist:del": "gulp del",
+    "dist": "yarn run dist:del && yarn run dist:tsc && yarn run dist:style"
   },
   "devDependencies": {
     "jest": "^27.1.0",
