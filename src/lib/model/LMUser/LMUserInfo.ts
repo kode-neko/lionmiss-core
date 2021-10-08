@@ -3,7 +3,7 @@ import { LMUser } from "./LMUser";
 
 type LMUserInfo = {
   _id?: string;
-  cart: LMCart;
+  cart?: LMCart;
   user: LMUser;
   favProducts: string[];
 };
