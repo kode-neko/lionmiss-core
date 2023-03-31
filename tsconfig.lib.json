@@ -2,6 +2,7 @@
   "compilerOptions": { // Configuración mientras hace la transpilación
     "outDir": "./lib", // Lugar donde coloca el codigo transpilado
     "declaration": true, // Crear los type defs (d.ts)
+    "declarationDir": "./lib", // Lugar donde coloca los type defs
     "lib": [ // Incluir los d.ts de librerías core
       "DOM", // Propios del navegador
       "ESNext" // Todas las funcs de la ultima versión de ES
@@ -22,6 +23,6 @@
     "src/**/*.ts"
   ],
   "exclude": [ // Dentro de los ficheros que se aplican, cuales no hacerlo
-    // "src/**/*.test.ts"
+    "src/**/*.test.ts"
   ]
 }

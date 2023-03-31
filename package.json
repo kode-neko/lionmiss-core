@@ -12,16 +12,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kode-neko/lionmiss-core.git"
+    "url": "git+https://github.com/kode-neko/lionmiss-core.git "
   },
   "keywords": [
     "kodeneko",
     "lion-miss"
   ],
   "scripts": {
-    "build": "webpack --config webpack.prod.config.ts",
-    "test": "jest --coverage",
-    "lint": "eslint ./src"
+    "build": "npm run clean && npm run build:babel && npm run build:types",
+    "clean": "rm -rf ./lib",
+    "build:babel": "npx babel ./src --config-file ./tools/.babelrc --out-dir ./lib --extensions \".ts,.tsx\"",
+    "build:types": "npx tsc --project tsconfig.lib.json",
+    "test": "npx jest --coverage",
+    "lint": "npx eslint ./src"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.0",
