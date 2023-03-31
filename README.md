@@ -1,3 +1,3 @@
 # Lion Miss Core
 
-🚧🚧🚧 undr cosntruction 🚧🚧🚧
+🚧🚧🚧 under cosntruction 🚧🚧🚧
