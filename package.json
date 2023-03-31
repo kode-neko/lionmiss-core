@@ -3,12 +3,10 @@
   "version": "0.0.0",
   "description": "Core files for Lion Miss web site project",
   "private": false,
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
+    "README.md"
   ],
   "repository": {
     "type": "git",
