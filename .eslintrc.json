@@ -1,26 +1,32 @@
 {
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-      "ecmaVersion": 2018,
-      "sourceType": "module"
-    },
-    "plugins": [
-      "@typescript-eslint",
-      "react-hooks"
-    ],
-    "extends": [
-      "plugin:react/recommended",
-      "plugin:@typescript-eslint/recommended"
-    ],
-    "rules": {
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn",
-      "react/prop-types": "off"
-    },
-    "settings": {
-      "react": {
-        "pragma": "React",
-        "version": "detect"
-      }
+  // Tiene que convertir el código en un arbol abstracto para evaluar.
+  // Existen varios: "esprima", "@babel/eslint-parser", "@typescript-eslint/parser"
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": { // Cada parseador tiene sus opciones
+    "ecmaVersion": "latest", // Versión de ES
+    "sourceType": "module", // 'script': JS scripting - 'module': Usas modulos
+    "project": [
+      "./tsconfig.json"
+    ] // Podemos indicar una lista de tsconfig
+  },
+  // Set de reglas a aplicar
+  "extends": [
+    "eslint:recommended", // Por defecto
+    "plugin:@typescript-eslint/recommended" // Solo para Typescript
+  ],
+  // Como tratar casos particulares
+  "overrides": [
+    // El caso de los tests
+    {
+      "files": [
+        "src/**.test.ts"
+      ], // Que ficheros incluir
+      "plugins": [
+        "jest"
+      ], // Que plugin usar
+      "extends": [
+        "plugin:jest/recommended"
+      ] // Set de reglas a usar
     }
-  }
+  ]
+}

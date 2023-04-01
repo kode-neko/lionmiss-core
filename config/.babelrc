@@ -1,0 +1,12 @@
+{
+  "presets": [
+    // "minify",
+    "@babel/preset-env",
+    "@babel/preset-typescript"
+  ],
+  // "sourceMaps": true,
+  "ignore": [
+    "../src/**/*.test.js",
+    "../src/**/*.test.ts"
+  ]
+}

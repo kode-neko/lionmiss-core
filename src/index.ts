@@ -1,5 +1,3 @@
-export { useAddEvent, useDisplay } from "./hooks";
-export * as i18n from "./i18n";
 export {
   LMCart,
   LMCartProduct,
