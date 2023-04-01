@@ -1,0 +1,17 @@
+{
+  "jsc": {
+    "minify": {
+      "compress": true
+    },
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true
+    }
+  },
+  // "minify": true,
+  // "sourceMaps": true,
+  "exclude": [
+    "../src/**/*.test.js",
+    "../src/**/*.test.ts"
+  ],
+}
