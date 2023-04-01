@@ -13,6 +13,7 @@
     "skipLibCheck": true, // No revisa los type defs de las librerías importadas. Mejora mucho el rendimiento.
     "strict": true, // Más "nazi" cuando chequea la sintaxis
     "forceConsistentCasingInFileNames": true, // Win no es case-sensitive en nombres de ficheros. Con esta opción fuerzas a que tsc lo sea
+    "module": "ESNext", // Sistema de módulos a nivel interno
     "moduleResolution": "nodenext", // Que sistema de módulos usará el código compilado
     "resolveJsonModule": true, // Poder importar .json
     "isolatedModules": false, // Evita el uso de "type" en "import" y "export"
