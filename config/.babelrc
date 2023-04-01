@@ -4,7 +4,7 @@
     "@babel/preset-typescript"
   ],
   "ignore": [
-    "**/*.test.js",
-    "**/*.test.ts"
+    "../src/**/*.test.js",
+    "../src/**/*.test.ts"
   ]
 }

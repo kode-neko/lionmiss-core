@@ -1,8 +1,8 @@
 {
   "compilerOptions": { // Configuración mientras hace la transpilación
-    "outDir": "./lib", // Lugar donde coloca el codigo transpilado
+    "outDir": "../lib", // Lugar donde coloca el codigo transpilado
     "declaration": true, // Crear los type defs (d.ts)
-    "declarationDir": "./lib", // Lugar donde coloca los type defs
+    "declarationDir": "../lib", // Lugar donde coloca los type defs
     "lib": [ // Incluir los d.ts de librerías core
       "DOM", // Propios del navegador
       "ESNext" // Todas las funcs de la ultima versión de ES
@@ -15,14 +15,14 @@
     "moduleResolution": "nodenext", // Que sistema de módulos usará el código compilado
     "resolveJsonModule": true, // Poder importar .json
     "isolatedModules": false, // Evita el uso de "type" en "import" y "export"
-    "noEmit": false, // Hay casos que no interesa que compile. Solo usarlo paar typechecking o que lo haga un transpialdor como babel o swc
+    "noEmit": true, // Hay casos que no interesa que compile. Solo usarlo paar typechecking o que lo haga un transpialdor como babel o swc
     // "jsx": "react", // Como traducir los jsx
     // "esModuleInterop": true // Permitir importar CommonJs
   },
   "include": [ // A que ficheros se aplica la config. Muy útil para ESLint y transpialdores
-    "src/**/*.ts"
+    "../src/**/*.ts"
   ],
   "exclude": [ // Dentro de los ficheros que se aplican, cuales no hacerlo
-    "src/**/*.test.ts"
+    // "../src/**/*.test.ts"
   ]
 }
