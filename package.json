@@ -1,11 +1,12 @@
 {
   "name": "lionmiss-core",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Core files for Lion Miss web site project",
   "private": false,
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
+    "./lib",
     "README.md"
   ],
   "repository": {
@@ -18,9 +19,9 @@
   ],
   "scripts": {
     "build": "npm run clean && npm run build:babel && npm run build:types",
+    "build:babel": "npx babel ./src --config-file ./config/.babelrc --out-dir ./lib --extensions \".ts,.tsx\"",
+    "build:types": "npx tsc --project ./config/tsconfig.lib.json",
     "clean": "rm -rf ./lib",
-    "build:babel": "npx babel ./src --config-file ./tools/.babelrc --out-dir ./lib --extensions \".ts,.tsx\"",
-    "build:types": "npx tsc --project tsconfig.lib.json",
     "test": "npx jest --coverage",
     "lint": "npx eslint ./src"
   },
