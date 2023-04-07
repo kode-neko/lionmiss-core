@@ -1,14 +1,11 @@
-import { LMMeasures } from "../LMMeasures";
-import { LMAddress } from "../LMAddress";
+import { LMCart } from "../LMCart";
+import { LMUserInfo } from "./LMUserInfo";
 
 type LMUser = {
-  username: string;
-  avatar: string;
-  lang: string;
-  currency: string;
-  measures: LMMeasures;
-  email: string;
-  addresses: LMAddress[];
+  _id?: string;
+  cart?: LMCart;
+  user: LMUserInfo;
+  favProducts: string[];
 };
 
 export { LMUser };

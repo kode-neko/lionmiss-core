@@ -1,2 +1,2 @@
-export { LMUser } from "./LMUser";
 export { LMUserInfo } from "./LMUserInfo";
+export { LMUser } from "./LMUser";
