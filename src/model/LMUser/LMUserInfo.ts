@@ -1,8 +1,10 @@
 import { LMMeasures } from "../LMMeasures";
 import { LMAddress } from "../LMAddress";
+import { LMCart } from "..";
 
 type LMUserInfo = {
-  username: string;
+  cart?: LMCart;
+  favProducts: string[];
   avatar: string;
   lang: string;
   currency: string;

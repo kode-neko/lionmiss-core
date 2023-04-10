@@ -1,11 +1,11 @@
-import { LMCart } from "../LMCart";
 import { LMUserInfo } from "./LMUserInfo";
 
 type LMUser = {
   _id?: string;
-  cart?: LMCart;
-  user: LMUserInfo;
-  favProducts: string[];
+  username: LMUserInfo;
+  pass: string;
+  salt: string;
+  userInfo: LMUserInfo;
 };
 
 export { LMUser };
