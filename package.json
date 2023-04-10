@@ -1,6 +1,6 @@
 {
   "name": "lionmiss-core",
-  "version": "0.3.6",
+  "version": "0.4.0",
   "description": "Core files for Lion Miss web site project",
   "private": false,
   "main": "lib/index.js",
