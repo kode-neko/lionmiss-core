@@ -4,7 +4,6 @@ type LMUser = {
   _id?: string;
   username: string;
   pass: string;
-  salt: string;
   userInfo: LMUserInfo;
 };
 
