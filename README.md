@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="200" class="logo" src="./src/stories/assets/logo.png" />
+  <img width="200" class="logo" src="./docs/logo.png" />
 </p>
 
 [💃 Personal Page](https://www.kodeneko.com) | [👗 Lion Miss Hub](https://kodeneko.com/lionmiss) | [🐱 Github](https://github.com/kode-neko) | [🐤 Twitter](https://twitter.com/KodenekoFront) | [✉️ Contact Mail](mailto:ladysun.freedom@gmail.com)
@@ -18,4 +18,4 @@ LionMiss is an unreal online shop about fashion 🛒 This project contains eleme
 
 <br/>
 
-<img class="exampleImg" src="./src/stories/assets/example-screen.png" />
+<img class="exampleImg" src="./docs/example-screen.png" />
