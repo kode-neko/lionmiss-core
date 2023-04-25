@@ -1,4 +1,3 @@
-
 <p align="center">
   <img width="200" class="logo" src="./docs/logo.png" />
 </p>
@@ -12,10 +11,14 @@ LionMiss is an unreal online shop about fashion 🛒 This project contains eleme
 - [🌳 Back | Swagger](https://www.kodeneko.com/lionmiss/swagger)
 - [❄️ Back | GraphQL](https://www.kodeneko.com/lionmiss/gql)
 - [🐱 Front | Github](https://github.com/kode-neko/lionmiss-components)
-- [🎨 Front | Storybook](https://github.com/kode-neko/lionmiss-components)
+- [🎨 Front | Storybook](https://www.kodeneko.com/lionmiss/storybook)
 - [✏️ UI | Wireframe](https://www.kodeneko.com/lionmiss/wireframe)
 - [📱 UI | Mockup](https://www.kodeneko.com/lionmiss/mockup)
 
 <br/>
 
 <img class="exampleImg" src="./docs/example-screen.png" />
+
+# UML
+
+<img class="exampleImg" src="./docs/uml.png" />
